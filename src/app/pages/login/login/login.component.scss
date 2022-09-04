@@ -4,7 +4,6 @@
   width: 100vw;
   height: 100vh;
   flex-direction: column;
-  border: 1px solid white;
 
   .base {
     width: 100%;
@@ -12,19 +11,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid white;
 
     img {
       width: 40%;
     }
 
     button {
+      font-size: 1.2rem;
       min-width: 200px;
-      padding: 10px;
+      padding: 20px;
       border-radius: 500px;
       background-color: #1FDF64;
       color: white;
       border: none;
+      cursor: pointer;
     }
   }
 }
